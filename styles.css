@@ -1,0 +1,82 @@
+body{
+    /* background-color: rgb(43, 54, 70); */
+    background: linear-gradient(180deg,rgb(42, 54, 68),rgb(71, 89, 114), rgb(85, 105, 136));
+    color: red;
+    margin:0;
+}
+h1{
+    text-align: center;
+    font-size: 3.1rem;
+    font-family: 'Orbitron';
+    color:white;
+    border-color: black;
+    background: rgb(220, 59, 0);
+}
+#intro{
+    margin:5%;
+    text-align: left;
+    font-family: 'Nova Square';
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Orbitron';
+}
+div.project-desc{
+    padding-bottom: 10%;
+    font-size: 1.2rem;
+    font-family: 'Nova Square', sans-serif; 
+}
+div.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.project-link{
+    height: 100px;
+     width: 400px; 
+    font-family:'Orbitron';
+    font-weight: 900;
+    font-size: 1.2rem;
+     background-color: rgb(220, 59, 0); 
+    border-radius: 50px;
+    text-align: center;
+    padding-top:10%;
+    /* padding-left: 5%; */
+    margin-left: 15%;
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+a.link{
+    display: inline-block;
+    padding-top: 3%;
+    color:black;
+    text-decoration: none;
+}
+
+hr{
+    border: 3px solid rgb(183, 31, 31);
+    border-radius:20px;
+    width: 90vw;
+}
+a {
+    display:block
+}
+a.grow {
+    transition: transform .5s;
+
+}
+
+
+
+a.grow:hover{
+    /* transition: 2s; */
+    color: rgb(255, 255, 255);
+    transform: scale(1.5);
+}
+div.project-wrapper:hover{
+    background-color: black;
+    transition:1s;
+
+
+}
