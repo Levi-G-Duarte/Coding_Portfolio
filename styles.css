@@ -3,14 +3,54 @@ body{
     background: linear-gradient(180deg,rgb(42, 54, 68),rgb(71, 89, 114), rgb(85, 105, 136));
     color: red;
     margin:0;
+    background-attachment: fixed;
 }
+
+.none{
+    display: none;
+}
+
+
+
+.nav-block{
+    /* background-color: rgb(220, 59, 0); */
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+    /* height: 10vh; */
+}
+
+.nav-items{
+    display: inline-block;
+    margin-top: -20px;
+    width: 32%;
+    margin-bottom: 1px;
+    /* grid-gap: 10%; */
+    
+}
+.nav-block button{
+    height: 10vh;
+    font-family: 'Teko';
+    font-size: 3rem;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    color: rgb(220, 59, 0);
+}
+
+.nav-block button:hover{
+    color: rgb(0, 0, 0);
+    transition: .7s;
+    /* background-color: black; */
+}
+
 h1{
     text-align: center;
-    font-size: 3.1rem;
+    font-size: 3rem;
     font-family: 'Orbitron';
     color:white;
     border-color: black;
-    background: rgb(220, 59, 0);
+    background-color: rgb(220, 59, 0);
 }
 #intro{
     margin:5%;
@@ -42,7 +82,7 @@ div.project-link{
     text-align: center;
     padding-top:10%;
     /* padding-left: 5%; */
-    margin-left: 15%;
+    margin-left: 10%;
     display:grid;
     grid-template-rows: repeat(3, 1fr);
 }
@@ -79,4 +119,47 @@ div.project-wrapper:hover{
     transition:1s;
 
 
+}
+
+
+
+#about-page{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    /* justify-content: space-between; */
+    grid-gap: 50px;
+    font-family: 'Orbitron';
+}
+
+#about-info{
+    border-radius: 20px;
+    font-size: 1.3rem;
+    padding: 30px;
+}
+
+
+.about-cover{
+    background-color: black;
+}
+
+#contact-page{
+    margin: auto;
+    background-color: black;
+    width: 70vw;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Orbitron';
+}
+
+
+
+
+.bg-cover{
+    background:transparent;
+    /* background-image: url('https://i.pinimg.com/736x/b8/d7/62/b8d762f24238a0fc8bb9151e93855aa1.jpg'); */
+    background-image: url('https://i.pinimg.com/originals/f8/bf/89/f8bf89dc9f6f5a20d52412b7a7cf8671.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
