@@ -40,7 +40,7 @@ body{
 
 .nav-block button:hover{
     color: rgb(0, 0, 0);
-    transition: .7s;
+    transition: 0.5s;
     /* background-color: black; */
 }
 
